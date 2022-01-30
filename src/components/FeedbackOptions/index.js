@@ -1,2 +1,2 @@
-import FeedbackOptions from './Feedback'
+import FeedbackOptions from './FeedbackOptions'
 export default FeedbackOptions

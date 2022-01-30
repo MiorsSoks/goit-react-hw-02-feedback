@@ -1,12 +1,10 @@
-import {Component} from 'react'
 import PropTypes from 'prop-types';
-import { Title, ButtonItem, } from './FeedbackOptions.styled'
+import { ButtonItem, } from './FeedbackOptions.styled'
 
 
 function FeedbackOptions({ options, onLeaveFeedback }) {
         return (<div>
-            <Title>Please leave feedback</Title>
-             <div>
+
                 {options.map(option => {
                     return (
                     <ButtonItem
@@ -19,7 +17,6 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
                     </ButtonItem>
                     );
                 })}
-            </div>
         </div>  
         )
 }
